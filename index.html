@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+  <!--  formularze na stronach w znacznikach form -->
+  <!--  zeby spiac trzeba for jak id -->
+   
+    <form action="">
+        <label for=“name”>Imię: </label>
+        <input type="text" id="name"><br>
+    
+    <!--    textarea - sluzy do wygeneronia rzestrzeni na dluznsza wiadomosc uzytkownika -->
+    <label for=“msg”>wpisz wiadomość </label>
+    <textarea maxlength=“1” name="" id="msg" cols="30" rows="10"></textarea>
+    <br>
+  <!--       select>option{opcja $}*3 -->
+    <label for=“options”>wybierz opcję </label>
+    <select name="" id="options">
+        <option value="">male</option>
+        <option value="">female</option>
+        <option value="">other</option>
+    </select>
+    <br>
+<!-- (label>input[type=radio])*3 +  name="gender" -->
+    <label for="">male<input type="radio" name="gender"></label>
+    <label for="">female<input type="radio" name="gender"></label>
+    <label for="">other<input type="radio" name="gender"></label>
+    
+    
+    </form>
+</body>
+</html>
